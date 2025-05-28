@@ -1,0 +1,57 @@
+body {
+    background-color: #1A1A1A;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+header {
+    display: flex;
+    align-items: center;
+    background-color: #0F0F0F;
+    color: white;
+    padding: 30px;
+    gap: 20px;
+}
+.logo {
+    width: 110px;
+    height: auto;
+}
+h1{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+}
+.box {
+    background-color: #0F0F0F;
+    color: white;
+    padding: 30px;
+    flex: 1; /* Otomatis lebar sesuai sisa ruang */
+    border-radius: 8px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    gap: 20px; /* Jarak antar kotak */
+    padding: 20px;
+}
+.box li {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20;
+}
+.box h2 {
+    font-size: 35;
+}
+#photo {
+  max-width: 100%;   /* maksimal selebar container atau layar */
+  height: auto;      /* proporsional */
+  border-radius: 8px;
+  margin-top: 10px;
+  display: none;     /* awalnya disembunyikan */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}

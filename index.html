@@ -1,0 +1,44 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>- 𝖓𝖔𝖗𝖙𝖍</title>
+    <body>
+        <header>
+            <img src="north_fams.png" alt="logo" class="logo">
+            <h1>HOME</h1>
+        </header>
+        <div class="container">
+            <main class="box">
+                <h2>Introduction</h2>
+                 <ul>
+                    <li>Nama : Bintang</li>
+                    <li>Umur : Tebak lahh</li>
+                    <li>
+                    Pacar : <span id="show-photo" style="color:rgb(255, 0, 208); cursor:pointer; text-decoration:underline;">Ada Dongggg</span><br>
+                    <img id="photo" src="Riska.jpg" alt="Foto Pacar" style="display:none; margin-top:10px; border-radius:8px;">
+                    </li>
+                 </ul>
+                 <style>
+                #photo {
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 8px;
+                    margin-top: 10px;
+                    display: none;
+                    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+                }
+                </style>
+
+                <script>
+                const showPhoto = document.getElementById('show-photo');
+                const photo = document.getElementById('photo');
+
+                showPhoto.addEventListener('click', () => {
+                    photo.style.display = (photo.style.display === 'none') ? 'block' : 'none';
+                });
+                </script>
+            </main>
+            <main class="box"><h2>what is this?</h2></main>
+        </div>
+      <script src="script.js"></script>
+    </body>
+</head>
